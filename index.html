@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>apik banget</title>
+  <style>
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: flex;
+      align-items: flex-start; /* Geser ke bawah */
+      justify-content: center;
+      background: linear-gradient(135deg, #f9d423 0%, #ff4e50 100%);
+    }
+    .slamet {
+      font-size: 8vw;
+      font-family: 'Impact', 'Arial Black', Arial, sans-serif;
+      letter-spacing: 0.18em;
+      padding: 40px 60px;
+      border-radius: 32px;
+      margin-top: 20vh; /* Tambah jarak dari atas */
+      box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+      text-align: center;
+      user-select: none;
+      background: linear-gradient(90deg, #2196f3 10%, #f9d423 40%, #ff4e50 70%, #2196f3 100%);
+      background-size: 200% auto;
+      color: #222;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: gradmove 3s linear infinite;
+      text-shadow:
+        0 0 24px #2196f3cc,
+        0 2px 0 #fff,
+        2px 2px 0 #1976d2,
+        0 0 60px #90caf9;
+    }
+    @keyframes gradmove {
+      0% { background-position: 0% 50%; }
+      100% { background-position: 200% 50%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="slamet">SLAMET</div>
+</body>
+</html>
